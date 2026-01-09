@@ -10,14 +10,9 @@
     justify-content: space-between;
     background-color: #313045;
     padding: 10px 20px;
-
 }
 
-@media (min-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-    .nav-link {
-        margin: 10px 0;
-    }
+.icon-navbar {
+    font-size: 1.4rem;
+    color: white;
 }
