@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #313045;
+    background-color: #565F64;
     padding: 10px 40px;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #313045;
+    background-color: #565F64;
     padding: 10px 20px;
 }
 
@@ -27,4 +27,11 @@
 
 .logoImg {
     height: 40px;
+}
+
+.navbar-1-style {
+    background-color: #565F64;
+    /* display: flex; */
+    /* align-items: center; */
+
 }
