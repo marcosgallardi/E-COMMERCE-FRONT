@@ -4,6 +4,10 @@
     margin: 0 15px;
 }
 
+.nav-link:hover {
+    color: #00A19B;
+}
+
 .navbar {
     display: flex;
     align-items: center;

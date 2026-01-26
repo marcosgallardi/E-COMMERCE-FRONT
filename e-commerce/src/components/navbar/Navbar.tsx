@@ -19,6 +19,7 @@ export const Navbar = () => {
 
       <div className="d-lg-none navbar-1">
         <i className="bi bi-filter-left icon-navbar" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
+        <img src={logoImg} alt="" className='logoImg' />
       </div>
       <div className="offcanvas offcanvas-start w-75 navbar-1-style" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div className="offcanvas-header">
