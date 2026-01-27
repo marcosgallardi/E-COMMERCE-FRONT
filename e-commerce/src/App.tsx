@@ -1,5 +1,5 @@
 
-import { Homepage } from './pages/homepage/homepage'
+import { Homepage } from './pages/homepage/HomePage'
 
 function App() {
 
