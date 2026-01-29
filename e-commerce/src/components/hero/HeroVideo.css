@@ -20,3 +20,15 @@
     transform: scale(1.02);
     /* pequeño truco para evitar bordes */
 }
+
+.hero__video1 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    /* CLAVE */
+    object-position: center;
+    transform: scale(1.02);
+    /* pequeño truco para evitar bordes */
+}

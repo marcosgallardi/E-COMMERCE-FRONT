@@ -5,7 +5,7 @@ export const HeroVideo = ({ videoSrc, videoSrc1
 
 
 }: HeroVideoProps) => {
-    console.log(videoSrc)
+   
     return (
         <>
             <section className="hero d-none d-lg-block">
@@ -20,9 +20,9 @@ export const HeroVideo = ({ videoSrc, videoSrc1
                     preload="metadata"
                 />
             </section>
-            <section className='d-lg-none'>
+            <section className='d-lg-none hero'>
                 <video
-                    className="hero__video"
+                    className="hero__video1"
                     src={videoSrc1}
                     autoPlay
                     muted
