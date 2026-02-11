@@ -2,11 +2,17 @@
     position: relative;
     min-height: 70vh;
     /* ajusta a tu gusto */
-    height: calc(100vh - 60px);
+    height: calc(60vh - 60px);
     width: 100%;
     overflow: hidden;
     display: grid;
     place-items: center;
+}
+
+@media (min-width: 769px) {
+    .hero {
+        height: calc(100vh - 60px);
+    }
 }
 
 .hero__video {

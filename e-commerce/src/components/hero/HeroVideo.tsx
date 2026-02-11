@@ -5,7 +5,7 @@ export const HeroVideo = ({ videoSrc, videoSrc1
 
 
 }: HeroVideoProps) => {
-   
+
     return (
         <>
             <section className="hero d-none d-lg-block">
