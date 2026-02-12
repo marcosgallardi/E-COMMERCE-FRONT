@@ -3,6 +3,7 @@ import { Navbar } from '../../components/navbar/Navbar'
 import hero from "../../assets/videos/hero.mp4"
 import hero1 from "../../assets/videos/hero1.mp4"
 import { Nosotros } from '../../components/nosotros/Nosotros'
+import { Cursos } from '../../components/cursos/Cursos'
 
 
 export const Homepage = () => {
@@ -15,6 +16,7 @@ export const Homepage = () => {
                 videoSrc1={hero1}
             />
             <Nosotros />
+            <Cursos />
         </>
     )
 }
