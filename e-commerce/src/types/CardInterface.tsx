@@ -5,7 +5,8 @@ export interface CardInterface {
     imageAlt?: string;
     title?: string;
     subtitle?: string;
-    children: React.ReactNode;
+    description?: string;
+    children?: React.ReactNode;
     footer?: React.ReactNode;
     actions?: React.ReactNode;
     elevation?: CardElevation;

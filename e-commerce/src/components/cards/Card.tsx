@@ -12,13 +12,14 @@ export const Card = ({
     elevation = "raised",
     className = "",
 }: CardInterface) => {
+    console.log(imageSrc,"aca!!!!!!!")
     return (
         <article className={`card card--${elevation} ${className}`}>
-               {imageSrc && (
-        <div className="card__image">
-          <img src={imageSrc} alt={imageAlt} />
-        </div>
-      )}
+            {imageSrc && (
+                <div className="card__image">
+                    <img src={imageSrc} alt={imageAlt} />
+                </div>
+            )}
             {(title || subtitle || actions) && (
                 <header className="card__header">
                     <div className="card__heading">
