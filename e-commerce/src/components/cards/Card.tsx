@@ -31,7 +31,7 @@ export const Card = ({
                 </header>
             )}
 
-            <section className="card__body">{children}</section>
+        
 
             {footer && <footer className="card__footer">{footer}</footer>}
         </article>

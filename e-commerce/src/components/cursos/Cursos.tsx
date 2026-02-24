@@ -16,7 +16,7 @@ export const Cursos = () => {
                                 imageAlt={curso.imageAlt}
                                 subtitle={curso.subtitle}
                                 children={curso.description}
-                                actions={<button>⋯</button>}
+                                
                                 footer={
                                     <>
                                         <button>Cancelar</button>
