@@ -144,30 +144,85 @@ export const dbEmpreSimple: CardInterface[] = [
         elevation: "flat",
         className: ""
     },
-    {
-        imageSrc: "../../src/assets/images/cursos/metodoreconquista.webp",
-        imageAlt: "Bisutería",
-        title: "Bisutería",
-        subtitle: "Cursos de bisutería",
-        description: "Aprende a hacer bisutería con técnicas tradicionales y modernas.",
-        elevation: "flat",
-        className: ""
-    },
+
     {
         imageSrc: "../../src/assets/images/cursos/portadacover.webp",
-        imageAlt: "Bisutería",
-        title: "Bisutería",
-        subtitle: "Cursos de bisutería",
-        description: "Aprende a hacer bisutería con técnicas tradicionales y modernas.",
+        imageAlt: "NegociodelaSublimacion",
+        title: "Tu negocio de sublimacion",
+        subtitle: "Aprende a emprender con sublimación y personalización de productos",
+        description: "Esta, es la innovadora técnica para personalizar todo tipo de productos, desde camisetas y tazas, hasta accesorios y artículos promocionales.Todo lo que necesitas es una impresora de sublimación, una prensa de calor y muchas ganas de aprender.",
         elevation: "flat",
         className: ""
     },
     {
         imageSrc: "../../src/assets/images/cursos/prodigitales.webp",
-        imageAlt: "Bisutería",
-        title: "Bisutería",
-        subtitle: "Cursos de bisutería",
-        description: "Aprende a hacer bisutería con técnicas tradicionales y modernas.",
+        imageAlt: "Productos digitales",
+        title: "Vende productos digitales",
+        subtitle: "Aprende a crear y vender productos digitales para emprender online",
+        description: "Paso a paso, cómo generar ingresos en internet comercializando cursos, ebooks, membresías u otros productos digitales, sin necesidad de crear uno desde cero ni tener experiencia previa.Aprendes a:Entender qué son los productos digitales y cómo funciona el modelo de venta online.Elegir productos rentables según tu nicho y tu audiencia.Crear una presencia estratégica en redes sociales (especialmente Instagram) que conecte y genere confianza.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/mentepositiva.webp",
+        imageAlt: "Armas de Bienestar",
+        title: "Armas de Bienestar",
+        subtitle: "Armas de Bienestar: Psicología Positiva en Acción",
+        description: "¿Buscas una manera efectiva de transformar tu vida y potenciar tu bienestar? Armas de Bienestar: Psicología Positiva en Acción es el recurso perfecto para ti. Este ebook te ofrece una guía práctica y accesible para aplicar los principios de la psicología positiva en tu vida diaria y lograr una transformación significativa.Este ebook no solo te brinda una comprensión teórica de la psicología positiva, sino que también te ofrece herramientas prácticas y ejemplos cotidianos para que puedas integrar fácilmente estos conceptos en tu vida. Ideal para cualquier persona interesada en mejorar su bienestar y alcanzar una vida más equilibrada y satisfactoria, Armas de Bienestar te proporcionará las estrategias necesarias para hacer un cambio real y positivo.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/diseñoresina.webp",
+        imageAlt: "DISEÑA Y CREA CON RESINA",
+        title: "DISEÑA Y CREA CON RESINA",
+        subtitle: "CREA CON RESINA: Guía Completa para Emprender con Arte en Resina",
+        description: "¿Alguna vez has soñado con crear accesorios únicos que reflejen tu estilo personal? ¡Ahora es el momento de hacerlo realidad! Te presentamos nuestro exclusivo curso DISEÑA Y CREA CON RESINA, una experiencia transformadora que desbloqueará tu creatividad y te llevará a crear de una manera fácil y dinámica tus propios accesorios en resina.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/bisuteria.webp",
+        imageAlt: "Bisutería Creativa",
+        title: "Bisutería Creativa",
+        subtitle: "El Rentable Negocio De La Bisutería Creativa",
+        description: "💰 El Rentable Negocio de la Bisutería Creativa: Convierte tu pasión en ingresos 📿✨Si amas la bisutería y quieres transformar tu creatividad en un negocio rentable, este curso es para ti 🚀. Aprenderás estrategias efectivas para diseñar, vender y escalar tu propio emprendimiento en el mundo de los accesorios, sin importar si estás comenzando o ya tienes experiencia.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/frasesestoico.webp",
+        imageAlt: "ESTOICO",
+        title: "Estoicismo",
+        subtitle: "ESTOICO - 33 FRASES ESTOICAS - SABIDURIA ESTOICA",
+        description: "Si quieres ser un pensador Estoico, estas frases encapsulan la esencia del estoicismo: el control sobre nuestras reacciones, la búsqueda de la virtud y la comprensión de que nuestra paz mental depende de nosotros mismos, no de las circunstancias externas.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/NailmasterPORTADA3.webp",
+        imageAlt: "ESTOICO",
+        title: "Nails Master Pro",
+        subtitle: "Nails Master Pro: Curso Completo de Uñas Acrílicas y Gel",
+        description: "✨ ¡Aprende a hacer uñas desde cero y empieza a generar ingresos! 💼💅¿Te gustaría aprender el arte de las uñas y ganar dinero desde casa? Con nuestro curso básico, podrás dar tus primeros pasos en el mundo de la manicura y empezar a atender a tus primeras clientas con confianza y seguridad.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/NegocioInfinto.webp",
+        imageAlt: "Negocio Infinito",
+        title: "Negocio Infinito",
+        subtitle: "Ofrecemos cursoscomo: marketing digital, diseño web y muchos más.",
+        description: "Hemos diseñado, testado y perfeccionado el mejor sistema de aprendizaje online con el cual podrás estudiar, sin renunciar a tu vida personal y profesional. Sin lugar a dudas es la mejor experiencia de aprendizaje.Somos una academia completa con cursos especializados impartidos por referentes de la industria y de la cual aprenderás sin hacer un esfuerzo en tiempo y dinero. No Esperes MásEn la Academia experimentarás un proceso de crecimiento completo a través de las áreas de las emociones, el autoconocimiento, las relaciones, la trascendencia, el dinero y la carrera profesional.",
+        elevation: "flat",
+        className: ""
+    },
+    {
+        imageSrc: "../../src/assets/images/cursos/CierresdeVentas.webp",
+        imageAlt: "Secretos de Cierre de Ventas",
+        title: "Secretos de Cierre de Ventas",
+        subtitle: "Secretos de Cierre de Ventas, Persuade a tus Clientes para Comprar",
+        description: "  ¿Quieres convertirte en un maestro del cierre de ventas? Nuestro curso 'Secretos de Cierre de Ventas' te enseñará las técnicas más efectivas para persuadir a tus clientes y cerrar ventas con éxito. Aprenderás a identificar las necesidades de tus clientes, superar objeciones y utilizar estrategias de persuasión que te ayudarán a aumentar tus conversiones y generar más ingresos. ¡No pierdas la oportunidad de dominar el arte del cierre de ventas y llevar tu negocio al siguiente nivel!",
         elevation: "flat",
         className: ""
     },
