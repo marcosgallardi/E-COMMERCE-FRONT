@@ -2,6 +2,8 @@ import type { CardInterface } from "../types/CardInterface";
 
 export const dbEmpreSimple: CardInterface[] = [
     {
+        id: "1",
+
         imageSrc: "../../src/assets/images/cursos/CocinaGriega.jpg",
         imageAlt: "Cocina Griega",
         title: "Cocina Griega",
@@ -10,6 +12,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "2",
         imageSrc: "../../src/assets/images/cursos/cursobolsa.webp",
         imageAlt: "invertir",
         title: "Aprende a invertir",
@@ -19,6 +22,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "3",
         imageSrc: "../../src/assets/images/cursos/cursoburger.webp",
         imageAlt: "Hamburguesas",
         title: "El Negocio De Las Hamburguesas",
@@ -28,6 +32,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "4",
         imageSrc: "../../src/assets/images/cursos/cursobutter.webp",
         imageAlt: "ButtercreamPro",
         title: "ButtercreamPro",
@@ -37,6 +42,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "5",
         imageSrc: "../../src/assets/images/cursos/cursocrypto.webp",
         imageAlt: "crypto",
         title: "Aprende a operar Bitcoin",
@@ -46,6 +52,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "6",
         imageSrc: "../../src/assets/images/cursos/cursodetailing.jpg",
         imageAlt: "Detailing",
         title: "Curso de Car Detailing",
@@ -55,6 +62,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "7",
         imageSrc: "../../src/assets/images/cursos/cursodiseñorop.jpg",
         imageAlt: "Diseño",
         title: "Diseño y moldes",
@@ -64,6 +72,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "8",
         imageSrc: "../../src/assets/images/cursos/cursodonas.webp",
         imageAlt: "donas",
         title: "Mini Donas Expert",
@@ -73,6 +82,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "9",
         imageSrc: "../../src/assets/images/cursos/cursoliderazgo.webp",
         imageAlt: "liderazgo",
         title: "Curso de Liderazgo",
@@ -82,6 +92,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "10",
         imageSrc: "../../src/assets/images/cursos/cursoresina.jpeg",
         imageAlt: "moldes de silicona",
         title: "Curso moldes de silicona",
@@ -91,6 +102,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "11",
         imageSrc: "../../src/assets/images/cursos/cursoskincare.png",
         imageAlt: "Cursos de skincare",
         title: "crea tu propia linea de skincare",
@@ -100,6 +112,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "12",
         imageSrc: "../../src/assets/images/cursos/cursoyoutube.webp",
         imageAlt: "Monetizatube",
         title: "Monetizatube",
@@ -109,6 +122,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "13",
         imageSrc: "../../src/assets/images/cursos/cursofiestas.jpg",
         imageAlt: "Fiesta",
         title: "DECORACIÓN DE FIESTAS 2.0",
@@ -118,6 +132,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "14",
         imageSrc: "../../src/assets/images/cursos/franquiciaia.webp",
         imageAlt: "FRANQUICIA IA",
         title: "FRANQUICIA IA",
@@ -127,6 +142,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "15",
         imageSrc: "../../src/assets/images/cursos/kitpestañasycejas.jpg",
         imageAlt: "Curso de cejas y pestañas",
         title: "Curso de cejas y pestañas",
@@ -136,6 +152,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "16",
         imageSrc: "../../src/assets/images/cursos/Macrame.png",
         imageAlt: "Macrame",
         title: "Macrame",
@@ -146,6 +163,7 @@ export const dbEmpreSimple: CardInterface[] = [
     },
 
     {
+        id: "17",
         imageSrc: "../../src/assets/images/cursos/portadacover.webp",
         imageAlt: "NegociodelaSublimacion",
         title: "Tu negocio de sublimacion",
@@ -155,6 +173,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "18",
         imageSrc: "../../src/assets/images/cursos/prodigitales.webp",
         imageAlt: "Productos digitales",
         title: "Vende productos digitales",
@@ -164,6 +183,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "19",
         imageSrc: "../../src/assets/images/cursos/mentepositiva.webp",
         imageAlt: "Armas de Bienestar",
         title: "Armas de Bienestar",
@@ -173,6 +193,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "20",
         imageSrc: "../../src/assets/images/cursos/diseñoresina.webp",
         imageAlt: "DISEÑA Y CREA CON RESINA",
         title: "DISEÑA Y CREA CON RESINA",
@@ -182,6 +203,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "21",
         imageSrc: "../../src/assets/images/cursos/bisuteria.webp",
         imageAlt: "Bisutería Creativa",
         title: "Bisutería Creativa",
@@ -191,6 +213,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "22",
         imageSrc: "../../src/assets/images/cursos/frasesestoico.webp",
         imageAlt: "ESTOICO",
         title: "Estoicismo",
@@ -200,6 +223,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "23",
         imageSrc: "../../src/assets/images/cursos/NailmasterPORTADA3.webp",
         imageAlt: "ESTOICO",
         title: "Nails Master Pro",
@@ -209,6 +233,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "24",
         imageSrc: "../../src/assets/images/cursos/NegocioInfinto.webp",
         imageAlt: "Negocio Infinito",
         title: "Negocio Infinito",
@@ -218,6 +243,7 @@ export const dbEmpreSimple: CardInterface[] = [
         className: ""
     },
     {
+        id: "25",
         imageSrc: "../../src/assets/images/cursos/CierresdeVentas.webp",
         imageAlt: "Secretos de Cierre de Ventas",
         title: "Secretos de Cierre de Ventas",

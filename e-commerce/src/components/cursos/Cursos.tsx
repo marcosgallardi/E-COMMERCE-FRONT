@@ -1,6 +1,7 @@
 import { Card } from "../cards/Card"
 import "../cursos/Cursos.css"
 import { dbEmpreSimple } from "../../db/db"
+import { Link } from "react-router-dom"
 
 
 export const Cursos = () => {
@@ -16,15 +17,15 @@ export const Cursos = () => {
                                 imageAlt={curso.imageAlt}
                                 subtitle={curso.subtitle}
                                 children={curso.description}
-                                
-                                footer={
-                                    <>
-                                        <button>Cancelar</button>
-                                        <button>Guardar</button>
-                                    </>
-                                }
-                                elevation="raised"
-                            >
+
+                                footer={<>
+                                    <Link to={`/detail/${curso.id}`} className="button-detalle">
+                                        Ver detalle
+                                    </Link>
+
+                                    <button className="button-comprar">Comprar</button>
+                                </>}
+                                elevation="raised" id={""}                            >
 
                             </Card>
                         </div>

@@ -1,6 +1,7 @@
 type CardElevation = "flat" | "raised";
 
 export interface CardInterface {
+    id: string;
     imageSrc?: string;
     imageAlt?: string;
     title?: string;

@@ -12,7 +12,7 @@ export const Card = ({
     elevation = "raised",
     className = "",
 }: CardInterface) => {
-    console.log(imageSrc,"aca!!!!!!!")
+
     return (
         <article className={`card card--${elevation} ${className}`}>
             {imageSrc && (
@@ -31,7 +31,7 @@ export const Card = ({
                 </header>
             )}
 
-        
+
 
             {footer && <footer className="card__footer">{footer}</footer>}
         </article>

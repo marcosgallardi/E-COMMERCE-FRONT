@@ -11,7 +11,7 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top:  4rem;
+    margin-top: 4rem;
 }
 
 @media (min-width: 640px) {
@@ -25,4 +25,35 @@
     .card-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+.button-detalle {
+    background-color: #22C55E;
+    border: 2.5px solid #0a0303;
+    border-radius: 15px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-detalle:hover {
+    background-color: #16A34A;
+    color: #fff;
+}
+
+.button-comprar {
+    background-color: #1E6FFF;
+    border: 2.5px solid #0a0303;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-comprar:hover {
+
+    background-color: #0052df;
+    color: #ffffff;
 }
